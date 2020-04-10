@@ -34,9 +34,4 @@ public class HelloController {
     {
         return  "conflict world";
     }
-    @GetMapping("/heihei")
-    public String heihei()
-    {
-        return  "heihei world";
-    }
 }
