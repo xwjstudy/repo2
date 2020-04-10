@@ -24,4 +24,9 @@ public class HelloController {
     {
         return  "hi world";
     }
+    @GetMapping("/conflict")
+    public String conflict()
+    {
+        return  "conflict world";
+    }
 }
