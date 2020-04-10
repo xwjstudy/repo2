@@ -29,4 +29,9 @@ public class HelloController {
     {
         return  "hi peace";
     }
+    @GetMapping("/haha")
+    public String haha()
+    {
+        return  "hi haha";
+    }
 }
