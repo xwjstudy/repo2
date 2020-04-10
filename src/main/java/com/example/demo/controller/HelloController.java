@@ -54,6 +54,6 @@ public class HelloController {
     @GetMapping("/dev")
     public String dev()
     {
-        return  "hi dev";
+        return  "hi devtest做了修改！";
     }
 }
