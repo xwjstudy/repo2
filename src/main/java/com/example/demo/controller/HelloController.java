@@ -47,6 +47,13 @@ public class HelloController {
     @GetMapping("/dada")
     public String dada()
     {
+        System.out.println("新增测试");
         return  "hi dada不准修改！";
+    }
+
+    @GetMapping("/dev")
+    public String dev()
+    {
+        return  "hi devtest做了修改！";
     }
 }
