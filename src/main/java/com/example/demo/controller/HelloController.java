@@ -44,4 +44,9 @@ public class HelloController {
     {
         return  "hi haha";
     }
+    @GetMapping("/dada")
+    public String dada()
+    {
+        return  "hi dada";
+    }
 }
