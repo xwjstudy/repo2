@@ -29,6 +29,11 @@ public class HelloController {
     {
         return  "hi peace";
     }
+    @GetMapping("/conflict")
+    public String conflict()
+    {
+        return  "conflict world";
+    }
     @GetMapping("/haha")
     public String haha()
     {
