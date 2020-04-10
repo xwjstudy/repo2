@@ -8,6 +8,6 @@ public class NewController {
     @GetMapping("/new")
     public String hello()
     {
-        return  "new world";
+        return  "lala world";
     }
 }

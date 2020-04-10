@@ -49,4 +49,10 @@ public class HelloController {
     {
         return  "hi dada";
     }
+
+    @GetMapping("/dev")
+    public String dev()
+    {
+        return  "hi dev";
+    }
 }
