@@ -47,6 +47,7 @@ public class HelloController {
     @GetMapping("/dada")
     public String dada()
     {
+        System.out.println("新增测试");
         return  "hi dada";
     }
 }
