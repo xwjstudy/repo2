@@ -10,4 +10,12 @@ public class TestController {
     {
         return  "test world";
     }
+    public static void main(String[] args)
+    {
+        try {
+            int i = 10/0;
+        }finally {
+
+        }
+    }
 }
